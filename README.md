@@ -27,3 +27,13 @@ $ ./test.sh
 * [CodeIgniter3 Filename Checker](https://github.com/kenjis/codeigniter3-filename-checker)
 * [CodeIgniter Widget (View Partial) Sample](https://github.com/kenjis/codeigniter-widgets)
 * [CodeIgniter3 Namespaced Controller](https://github.com/kenjis/codeigniter3-namespaced-controller)
+
+## PDF Summarizer
+
+This project now includes a simple PDF summarizer page:
+
+1. Open `/index.php/pdf-summary` in your browser.
+2. Upload a PDF file (text-based PDF, max 10 MB).
+3. The app extracts text using `pdftotext` and returns a short summary.
+
+> Note: `pdftotext` must be available on the server PATH.

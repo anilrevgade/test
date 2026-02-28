@@ -65,3 +65,6 @@ $route['api/example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/example/users/
 $route['foo/bar/(:any)/?(.*)'] = function ($controller, $others = null) {
     return 'bar/baz/'.$controller.'/'.$others;
 };
+
+$route['pdf-summary'] = 'pdf_summary/index';
+$route['pdf-summary/summarize'] = 'pdf_summary/summarize';
